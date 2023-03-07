@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lofi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sw-proxy demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex h-screen flex-col items-center justify-center space-y-12">
+      <div class="mockup-window border bg-base-300">
+        <div
+          class="flex justify-center bg-base-200 w-[720px] h-[450px]"
+          id="window-content"
+        >
+          <!-- <iframe id="sandbox" src="" class="w-full h-full"></iframe> -->
+        </div>
+      </div>
+      <div
+        class="flex w-full flex-none items-center justify-center space-x-8 py-4"
+        id="buttons-container"
+      >
+        <!-- <button class="btn">GET</button>
+        <button class="btn">POST</button>
+        <button class="btn">IMAGE</button>
+        <button class="btn">HTML</button>
+        <button class="btn">JS</button>
+        <button class="btn">CSS</button> -->
+      </div>
+    </div>
+
+    <script type="module" src="./src/index.ts"></script>
+  </body>
+</html>

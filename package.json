@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sw": "rollup -c rollup.config.js",
+    "dev": "yarn sw & vite",
+    "build": "yarn sw & vite build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "rollup": "^3.18.0",
+    "rollup-plugin-ts": "^3.2.0",
+    "typescript": "^4.9.5",
     "vite": "^4.1.4"
   }
 }
