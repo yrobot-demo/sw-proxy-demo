@@ -1,5 +1,6 @@
 import ts from "rollup-plugin-ts";
 import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
 
 /** @type {import('rollup').RollupOptions} */
 export default {
@@ -9,5 +10,5 @@ export default {
     format: "cjs",
     name: "[name].js",
   },
-  plugins: [ts({}), resolve()],
+  plugins: [ts({}), resolve(), commonjs()],
 };
