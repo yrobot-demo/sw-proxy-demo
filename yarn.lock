@@ -190,6 +190,14 @@
   resolved "https://registry.npmjs.org/@wessberg/stringutil/-/stringutil-1.0.19.tgz#baadcb6f4471fe2d46462a7d7a8294e4b45b29ad"
   integrity sha512-9AZHVXWlpN8Cn9k5BC/O0Dzb9E9xfEMXzYrNunwvkUTvuK7xgQPVRZpLo+jWCOZ5r8oBa8NIrHuPEu1hzbb6bg==
 
+"@yrobot/sw-proxy@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@yrobot/sw-proxy/-/sw-proxy-1.0.0.tgz#32c2bf716a8bf73c21dc0979ae9c8ce5a85d70d5"
+  integrity sha512-KdWl2yA7S9qJVebsLJ8Lfg+u+Ge4onYwT0ZxBjvLDL/GLZPDTMCRPKbgyvUKo99+Te3N2LHd3dBR46X5X24uVQ==
+  dependencies:
+    rollup "^3.18.0"
+    vite "^4.1.1"
+
 ansi-colors@^4.1.3:
   version "4.1.3"
   resolved "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
@@ -538,7 +546,7 @@ update-browserslist-db@^1.0.10:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-vite@^4.1.4:
+vite@^4.1.1, vite@^4.1.4:
   version "4.1.4"
   resolved "https://registry.npmjs.org/vite/-/vite-4.1.4.tgz#170d93bcff97e0ebc09764c053eebe130bfe6ca0"
   integrity sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==
